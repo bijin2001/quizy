@@ -1,0 +1,86 @@
+{
+    "Pge":[
+        {
+            "q" : "WHAT IS JSX STANDS FOR IN REACT ?",
+            "op1": "JAVASCRIPT XML",
+            "op2": "JAVASCRIPT EXTENSION",
+            "op3": "XML SCRIPT",
+            "op4": "EXTENDED JAVASCRIPT",
+            "ans": 1
+
+        },
+        {
+            "q" : "WHAT FUNCTION IS USED TO CHANGE THE STATE OF A REACT COMPONENT ?",
+            "op1":"setState()",
+            "op2":"changeState()",
+            "op3":"updateState()",
+            "op4":"modifyState()",
+            "ans": 1
+        },
+        {
+            "q" : "WHAT IS THE PURPOSE OF KEYS IN REACT LISTS ?",
+            "op1":"TO STYLE LIST ITEMS",
+            "op2":"TO FILTER LIST ELEMENTS.",
+            "op3":"TO REORDER LIST ELEMENTS.",
+            "op4":"TO UNIQUELY IDENTIFY ELEMENTS WITHIN AN ARRAY",
+            "ans": 4
+        },
+        {
+            "q" : "WHAT IS THE PURPOSE OF REACT ROUTER IN A REACT APPLICATION",
+            "op1":"TO MANAGE APPLICATION STATE.",
+            "op2":"TO HANDLE SERVER-SIDE RENDERING.",
+            "op3":"TO CREATE DYNAMIC, CLIENT-SIDE ROUTING.",
+            "op4": "TO MANAGE ASYNCHRONOUS DATA FLOW. ",
+            "ans": 3
+        },
+        {
+            "q" : "WHICH LIFECYCLE METHOD IS INVOKED IMMEDIATELY AFTER A COMPONENT IS INSERTED INTO THE DOM?",
+            "op1":"componentWillMount()",
+            "op2":"componentDidMount()",
+            "op3":"componentDidUpdate()",
+            "op4": "componentWillUpdate()",
+            "ans": 2
+        },
+        {
+            "q" : "WHICH OF THE FOLLOWING METHODS IS CALLED BEFORE A COMPONENT IS UNMOUNTED AND DESTROYED? ",
+            "op1":"componentWillMount()",
+            "op2":"componentDidMount()",
+            "op3":"componentDidUpdate()",
+            "op4": "componentWillUpdate()",
+            "ans": 1
+        },
+        {
+            "q" : "WHICH BUILT-IN METHOD CALLS A FUNCTION FOR EACH ELEMENT IN THE ARRAY?",
+            "op1":"forEach()",
+            "op2":"each()",
+            "op3":"loop()",
+            "op4": "map()",
+            "ans": 1
+        },
+        {
+            "q" : "WHICH BUILT-IN METHOD CALLS A FUNCTION FOR EACH ELEMENT IN THE ARRAY?",
+            "op1":"forEach()",
+            "op2":"each()",
+            "op3":"loop()",
+            "op4": "map()",
+            "ans": 1
+        },
+        {
+            "q" : "WHAT IS THE CORRECT WAY TO DECLARE AN ARRAY IN JAVASCRIPT?", 
+            "op1":"array[0]",
+            "op2":"array.first()",
+            "op3":"array.firstElement()",
+            "op4": "array.first",
+            "ans": 1
+        },
+        {
+            "q" : "WHAT METHOD IS USED TO REMOVE THE LAST ELEMENT FROM AN ARRAY IN JAVASCRIPT ?", 
+            "op1":"removeLast()",
+            "op2":"pop()",
+            "op3":"deleteLast()",
+            "op4": "remove()",
+            "ans": 2
+        }
+
+    ]
+} 
