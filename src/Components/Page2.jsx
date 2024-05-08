@@ -46,11 +46,22 @@ function Page2() {
       setQuestion(Pge[index]);
       setFix(false);
       setColor(null);
-      setCount(count => count + 10) 
+      setCount(count => count + 10);
+      setColor(null);
     }
   };
   
   const now = count;
+
+  const reset = () => {
+
+    setIndex(0);
+    setQuestion(Pge[0])
+    setScore(0)
+    setFix(false)
+    setResult(false)
+    setCount(10)
+  }
 
   return (
     <>
@@ -144,6 +155,7 @@ function Page2() {
         <h1 className='text-center' style={{ color: '#eae9ee', letterSpacing: '19px', fontSize: '4em' }}>YOUR SCORE</h1>
         <h1 className='mt-5' style={{ color: '#eae9ee', fontSize: '6em' }}>{score}/{Pge.length}</h1>
         <h1 className='mt-5 ms-3' style={{ color: '#eae9ee', fontSize: '2em', letterSpacing: '27px' }}>{score>=6?'YOU WON':'YOU LOSE'}</h1>
+        <button onClick={reset} className='mt-5 px-2 py-2 btn btn-outline-light bn' style={{letterSpacing:'5px',outline:'none'}}>RESET</button>
 
       </div>
 
